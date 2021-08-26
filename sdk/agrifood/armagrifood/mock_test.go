@@ -11,9 +11,9 @@ import (
 	"github.com/Azure/azure-sdk-for-go/sdk/armcore"
 	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
 	"github.com/Azure/azure-sdk-for-go/sdk/azidentity"
+	"github.com/Azure/azure-sdk-for-go/sdk/to"
 	"golang.org/x/net/http2"
 )
-import "github.com/Azure/azure-sdk-for-go/sdk/to"
 
 var (
 	ctx            context.Context
